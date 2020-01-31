@@ -2,6 +2,7 @@ import './style/style.scss';
 import search from '../static/img/search.png'
 import text from '../static/img/text.png'
 import '@fortawesome/fontawesome-free/js/all.min'
+import smoothscroll from 'smoothscroll-polyfill';
 
 function setScroll(clickID, scrollID) {
     const target = document.querySelector(clickID);
@@ -15,6 +16,7 @@ function setScroll(clickID, scrollID) {
 }
 
 function main(){
+    smoothscroll.polyfill();
     document.querySelector("#search_img").src = search;
     document.querySelector("#text_img").src = text;
     const burger = document.querySelector('.navbar-burger');
