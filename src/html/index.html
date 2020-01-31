@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTMLのタイトル</title>
+</head>
+<body>
+<section class="hero is-info is-fullheight">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+        <header class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+                    </a>
+                    <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+                </div>
+                <div id="navbarMenuHeroC" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item is-active" href="#">
+                            Home
+                        </a>
+                        <a class="navbar-item" href="https://coder.face9363.net">
+                            Blog <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <span class="navbar-item"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body" >
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Portfolio
+            </h1>
+            <h2 class="subtitle">
+                by face9363
+            </h2>
+        </div>
+    </div>
+
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+            <div class="container">
+                <ul>
+                    <li><a id="intro_section">Introduction</a></li>
+                    <li><a id="front_section">Frontend</a></li>
+                    <li><a id="back_section">Backend</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<section class="hero is-white is-medium" id="introduction">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">About me</h1>
+            <h2 class="subtitle">
+                主にWeb系をやります。サーバーサイドからフロントまで色々制作しております。以下に掲載しておりますのでよろしければご覧ください。
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="frontend">
+    <div class="container has-text-centered">
+        <h1 class="title">Frontend</h1>
+    </div>
+</section>
+
+<section class="hero is-primary is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column has-text-centered is-half">
+                    <h1 class="title">
+                        TimeText〜板書共有サイト〜
+                    </h1>
+                    <h2 class="subtitle">
+                        手軽に板書の整理、共有ができるサイトです。 写真を撮った時間に応じて授業単位での写真の振り分け、位置情報に基づき同じ授業を受ける人の写真を見られます。
+                    </h2>
+                    <div>
+                        <a href="https://timetext.face9363.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
+                        <a href="https://github.com/face9363/TimeText"><i class="fab fa-github-alt fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <figure class="image is-128x128">
+                        <img id="text_img">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="backend">
+    <div class="container has-text-centered">
+        <h1 class="title">Backend</h1>
+    </div>
+</section>
+
+<section class="hero is-primary is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column has-text-centered is-half">
+                    <h1 class="title">
+                        SearchDrive〜過去問検索エンジン〜
+                    </h1>
+                    <h2 class="subtitle">
+                        オンラインストレージ上の大学の定期試験の過去門をクローリング。簡単に一括検索ができます。
+                    </h2>
+                    <div>
+                        <a href="https://engine.face9363.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
+                        <a href="https://github.com/face9363/sharedrive"><i class="fab fa-github-alt fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="column is-half is-vcentered">
+                    <figure class="image is-128x128">
+                        <img id="search_img">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-white is-medium">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">Contact</h1>
+            <h2 class="subtitle">
+                <i class="far fa-envelope"></i> <a href="mailto:box@e.face9363.net">box@e.face9363.net</a>
+            </h2>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p class="has-text-white">
+            face9363 &copy; 2020 All rights reserved.<br/>
+            Hosting by Netlify.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

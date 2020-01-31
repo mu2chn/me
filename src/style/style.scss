@@ -1,0 +1,22 @@
+$footer-color: true;
+$footer-background-color: #111111;
+
+@import "~bulma";
+
+
+a {
+  color: white;
+}
+
+//html{
+//  scroll-behavior: smooth;
+//}
+
+section{
+  figure{
+    margin: auto;
+  }
+  h2{
+    line-height: 2;
+  }
+}
