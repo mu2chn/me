@@ -3,6 +3,7 @@ import search from '../static/img/search.png'
 import text from '../static/img/text.png'
 import '@fortawesome/fontawesome-free/js/all.min'
 import smoothscroll from 'smoothscroll-polyfill';
+import './js/elements/entry'
 
 function setScroll(clickID, scrollID) {
     const target = document.querySelector(clickID);
@@ -19,6 +20,7 @@ function main(){
     smoothscroll.polyfill();
     document.querySelector("#search_img").src = search;
     document.querySelector("#text_img").src = text;
+
     const burger = document.querySelector('.navbar-burger');
     const menu = document.querySelector('.navbar-menu');
     burger.addEventListener("click", ()=>{
