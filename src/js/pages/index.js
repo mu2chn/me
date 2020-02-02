@@ -1,13 +1,23 @@
 import './_Backend'
-import  './_Frontend'
+import './_Frontend'
 import '../elements/templates/defaultSection'
 import '../elements/templates/serviceSection'
 import '../elements/layouts/footer'
 import '../elements/layouts/hero'
 
+import '../../style/style.scss';
+import {dom, library} from '@fortawesome/fontawesome-svg-core'
+import {faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons/faExternalLinkAlt'
+import {faGithubAlt} from "@fortawesome/free-brands-svg-icons/faGithubAlt";
+
+
 class Index extends HTMLElement{
     constructor() {
         super();
+
+        library.add(faExternalLinkAlt, faGithubAlt);
+        dom.watch();
+
         this.innerHTML = `
             <index-hero></index-hero>
             <default-section>
