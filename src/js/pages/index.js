@@ -26,8 +26,8 @@ class Index extends HTMLElement{
                         主にWeb系をやります。サーバーサイドからフロントまで色々制作しております。以下に掲載しておりますのでよろしければご覧ください。
                     </h2>
             </default-section>
-            <index-backend></index-backend>
             <index-frontend></index-frontend>
+            <index-backend></index-backend>
             <default-section>
                 <h1 class="title">Contact</h1>
                 <h2 class="subtitle">
