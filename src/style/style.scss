@@ -1,8 +1,15 @@
 $footer-color: true;
 $footer-background-color: #111111;
 
-@import "~bulma";
-
+@import "~bulma/sass/utilities/all";
+@import "~bulma/sass/base/all";
+@import "~bulma/sass/layout/all";
+@import "~bulma/sass/components/navbar";
+@import "~bulma/sass/elements/container";
+@import "~bulma/sass/elements/image";
+@import "~bulma/sass/elements/title";
+@import "~bulma/sass/grid/columns";
+@import "~bulma/sass/components/tabs";
 
 a {
   color: white;
