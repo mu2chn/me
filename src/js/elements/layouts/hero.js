@@ -1,11 +1,16 @@
+import './header'
+import smoothscroll from "smoothscroll-polyfill";
+
 class HeroComponent extends HTMLElement{
     constructor() {
         super();
+        smoothscroll.polyfill();
+
         this.innerHTML = `
         <section class="hero is-info is-fullheight">
             <!-- Hero head: will stick at the top -->
             <div class="hero-head">
-                <face-header></face-header>
+                <blue-header></blue-header>
             </div>
         
             <!-- Hero content: will be in the middle -->
@@ -25,16 +30,32 @@ class HeroComponent extends HTMLElement{
                 <nav class="tabs is-boxed is-fullwidth">
                     <div class="container">
                         <ul>
-                            <li><a id="intro_section">Introduction</a></li>
-                            <li><a id="front_section">Frontend</a></li>
-                            <li><a id="back_section">Backend</a></li>
                         </ul>
                     </div>
                 </nav>
             </div>
         </section>
-        `
+        `;
+        this.ul = this.querySelector('ul');
     }
+
+    set links(links){
+        const fragment = document.createDocumentFragment();
+        links.map( (link) =>{
+            const div = document.createElement('li');
+            div.insertAdjacentHTML('beforeend', `<a>${link.name}</a>`);
+            const a = div.querySelector('a');
+            a.addEventListener("click", () => {
+                link.tag.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+            fragment.appendChild(div);
+        });
+        this.ul.appendChild(fragment);
+    }
+
 }
 
-customElements.define('face-hero', HeroComponent);
+customElements.define('index-hero', HeroComponent);

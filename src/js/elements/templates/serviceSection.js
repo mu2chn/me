@@ -1,4 +1,4 @@
-class MyBoldParagraph extends HTMLElement {
+class ServiceSection extends HTMLElement {
     static get observedAttributes() { return ['src']; }
 
     constructor() {
@@ -51,4 +51,4 @@ class MyBoldParagraph extends HTMLElement {
     set src(newValue){this.setImg(newValue)}
 
 }
-customElements.define("service-section",MyBoldParagraph);
+customElements.define("service-section",ServiceSection);

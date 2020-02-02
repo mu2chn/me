@@ -9,7 +9,11 @@ class HeaderComponent extends HTMLElement{
                     <a class="navbar-item">
                         Face
                     </a>
-                    <span class="navbar-burger burger" data-target="navbarMenuHeroC"></span>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
                 </div>
                 <div id="navbarMenuHeroC" class="navbar-menu">
                     <div class="navbar-end">
@@ -27,7 +31,14 @@ class HeaderComponent extends HTMLElement{
             </div>
         </header>
         `
+
+        const burger = this.querySelector('.navbar-burger');
+        const menu = this.querySelector('.navbar-menu');
+        burger.addEventListener("click", ()=>{
+            menu.classList.toggle('is-active');
+            burger.classList.toggle('is-active');
+        });
     }
 }
 
-customElements.define("face-header", HeaderComponent);
+customElements.define("blue-header", HeaderComponent);

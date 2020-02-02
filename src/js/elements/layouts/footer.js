@@ -13,4 +13,4 @@ class FooterComponent extends HTMLElement{
     }
 }
 
-customElements.define('face-footer', FooterComponent);
+customElements.define('blue-footer', FooterComponent);
