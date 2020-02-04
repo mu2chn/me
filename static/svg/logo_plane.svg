@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg1143"
+   version="1.1"
+   viewBox="0 0 50.509018 50.50887"
+   height="50.508869mm"
+   width="50.509018mm">
+  <defs
+     id="defs1137" />
+  <g
+     transform="translate(-30.713488,-143.54403)"
+     id="layer1">
+    <rect
+       transform="rotate(44.999998)"
+       y="61.925621"
+       x="141.07629"
+       height="35.71516"
+       width="35.71516"
+       id="rect883-3-2-7"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.24266005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+    <path
+       id="rect883-3-2-9"
+       d="m 55.968256,143.54403 -4.41524,4.41523 8.78552,-0.045 z m 12.16102,12.16102 -16.98448,0.0878 v 17.16021 h -0.30078 v -17.15865 l -0.72605,0.004 -0.0915,32.31274 5.94175,5.94175 25.25429,-25.25426 z m -31.005868,6.68332 -6.40992,6.40993 6.37376,6.37325 z"
+       style="display:inline;opacity:1;fill:#0a0303;fill-opacity:1;stroke:none;stroke-width:3.24266005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+  </g>
+</svg>

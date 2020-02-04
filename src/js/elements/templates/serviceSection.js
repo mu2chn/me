@@ -1,13 +1,14 @@
 class ServiceSection extends HTMLElement {
-    static get observedAttributes() { return ['src']; }
+    static get observedAttributes() { return ['src', 'color']; }
 
     constructor() {
         super();
+        const color = this.getAttribute('color');
 
         this.innerHTML = `
         <style>
         </style>
-        <section class="hero is-primary is-medium">
+        <section class="hero is-${color ? color: "primary"} is-medium">
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-multiline">

@@ -15,7 +15,6 @@ class Index extends HTMLElement{
     constructor() {
         super();
 
-        library.add(faExternalLinkAlt, faGithubAlt);
         dom.watch();
 
         this.innerHTML = `

@@ -1,10 +1,19 @@
 import '../elements/templates/serviceSection'
 import '../elements/templates/defaultSection'
 import text from '../../../static/img/text.png'
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
+import {faGithubAlt} from "@fortawesome/free-brands-svg-icons/faGithubAlt";
 
 class _Frontend extends HTMLElement{
+    init_icon(){
+        library.add(faExternalLinkAlt, faGithubAlt);
+    }
+
     constructor() {
         super();
+        this.init_icon()
+
         this.innerHTML = `
          <default-section>
             <h1 class="title">Frontend</h1>
