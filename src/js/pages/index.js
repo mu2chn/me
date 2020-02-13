@@ -1,5 +1,6 @@
 import './_Backend'
 import './_Frontend'
+import './_Scripts'
 import '../elements/templates/defaultSection'
 import '../elements/templates/serviceSection'
 import '../elements/layouts/footer'
@@ -25,8 +26,9 @@ class Index extends HTMLElement{
                         主にWeb系をやります。サーバーサイドからフロントまで色々制作しております。以下に掲載しておりますのでよろしければご覧ください。
                     </h2>
             </default-section>
-            <index-frontend></index-frontend>
             <index-backend></index-backend>
+            <index-frontend></index-frontend>
+            <index-scripts></index-scripts>
             <default-section>
                 <h1 class="title">Contact</h1>
                 <h2 class="subtitle">
@@ -36,9 +38,10 @@ class Index extends HTMLElement{
             <blue-footer></blue-footer>
         `;
         this.querySelector('index-hero').links = [
-            {tag: this.querySelector('default-section'), name: "Introduction"},
+            // {tag: this.querySelector('default-section'), name: "Introduction"},
+            {tag: this.querySelector('index-backend'), name: "Backend"},
             {tag: this.querySelector('index-frontend'), name: "Frontend"},
-            {tag: this.querySelector('index-backend'), name: "Backend"}
+            {tag: this.querySelector('index-scripts'), name: "Others"}
         ]
     }
 }

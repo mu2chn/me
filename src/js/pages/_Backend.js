@@ -21,7 +21,7 @@ class _Backend extends HTMLElement{
             <h1 class="title">Backend</h1>
         </default-section>
         
-        <service-section src="${search}">
+        <service-section src="${search}" color="dark">
             <h1 class="title">
                 SearchDrive〜過去問検索エンジン〜
             </h1>
@@ -39,7 +39,7 @@ class _Backend extends HTMLElement{
                 ShareBiker〜自転車シェアリングサイト〜
             </h1>
             <h2 class="subtitle">
-                手持ちの自転車を気軽にシェアリングしよう
+                手持ちの自転車を気軽にシェアリングしよう。
             </h2>
             <div>
                 <a href="https://kyotosharebike.com"><i class="fas fa-external-link-alt fa-2x"></i></a>
