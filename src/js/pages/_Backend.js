@@ -1,6 +1,6 @@
 import '../elements/templates/serviceSection'
 import '../elements/templates/defaultSection'
-import search from '../../../static/img/search.png'
+import search from '../../../static/svg/searchdrive.svg'
 import biker from  '../../../static/svg/logo_plane.svg'
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";

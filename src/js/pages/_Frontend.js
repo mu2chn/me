@@ -1,6 +1,6 @@
 import '../elements/templates/serviceSection'
 import '../elements/templates/defaultSection'
-import text from '../../../static/img/text.png'
+import text from '../../../static/svg/timetext.svg'
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 import {faGithubAlt} from "@fortawesome/free-brands-svg-icons/faGithubAlt";
@@ -23,7 +23,7 @@ class _Frontend extends HTMLElement{
                 TimeText〜板書共有サイト〜
             </h1>
             <h2 class="subtitle">
-                手軽に板書の整理、共有ができるサイトです。 写真を撮った時間に応じて授業単位での写真の振り分け、位置情報に基づき同じ授業を受ける人の写真を見られます。
+                板書の整理、共有を一発で。
             </h2>
             <div>
                 <a href="https://timetext.face9363.net"><i class="fas fa-external-link-alt fa-2x has-text-dark"></i></a>
