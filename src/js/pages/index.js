@@ -19,25 +19,27 @@ class Index extends HTMLElement{
         dom.watch();
 
         this.innerHTML = `
-            <index-hero></index-hero>
-            <default-section>
-            <div class="columns is-multiline is-centered">
-                <h1 class="title column is-full">Introduction</h1>
-                <h2 class="subtitle column is-half">
-                    工学部情報学科の大学２回生です。主にWeb系をやります。サーバーサイドからフロントまで色々制作しております。以下に掲載しておりますのでよろしければご覧ください。
-                </h2>
+            <div class="all-fonts">
+                <index-hero></index-hero>
+                <default-section>
+                <div class="columns is-multiline is-centered">
+                    <h1 class="title column is-full">Introduction</h1>
+                    <h2 class="subtitle column is-half">
+                        工学部情報学科の大学２回生です。主にWeb系をやります。サーバーサイドからフロントまで色々制作しております。以下に掲載しておりますのでよろしければご覧ください。
+                    </h2>
+                </div>
+                </default-section>
+                <index-backend></index-backend>
+                <index-frontend></index-frontend>
+                <index-scripts></index-scripts>
+                <default-section>
+                    <h1 class="title">Contact</h1>
+                    <h2 class="subtitle">
+                        <i class="far fa-envelope"></i> <a href="mailto:box@e.face9363.net">box@e.face9363.net</a>
+                    </h2>
+                </default-section>
+                <blue-footer></blue-footer>
             </div>
-            </default-section>
-            <index-backend></index-backend>
-            <index-frontend></index-frontend>
-            <index-scripts></index-scripts>
-            <default-section>
-                <h1 class="title">Contact</h1>
-                <h2 class="subtitle">
-                    <i class="far fa-envelope"></i> <a href="mailto:box@e.face9363.net">box@e.face9363.net</a>
-                </h2>
-            </default-section>
-            <blue-footer></blue-footer>
         `;
         this.querySelector('index-hero').links = [
             // {tag: this.querySelector('default-section'), name: "Introduction"},
