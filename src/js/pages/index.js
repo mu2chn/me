@@ -25,7 +25,7 @@ class Index extends HTMLElement{
                 <div class="columns is-multiline is-centered">
                     <h1 class="title column is-full">Introduction</h1>
                     <h2 class="subtitle column is-half">
-                        工学部情報学科の大学２回生です。主にWeb系をやります。サーバーサイドからフロントまで色々制作しております。以下に掲載しておりますのでよろしければご覧ください。
+                        工学部情報学科の大学２回生です。主にWeb系をやります。サーバーサイドからフロントまで色々制作しております。以下に制作物を掲載しておりますのでよろしければご覧ください。
                     </h2>
                 </div>
                 </default-section>
