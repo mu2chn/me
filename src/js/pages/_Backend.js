@@ -23,7 +23,7 @@ class _Backend extends HTMLElement{
         
         <service-section src="${search}" color="dark">
             <h1 class="title">
-                SearchDrive〜過去問検索エンジン〜
+                SearchDrive
             </h1>
             <h2 class="subtitle">
                 オンラインストレージ上の大学の定期試験の過去門をクローリング。簡単に一括検索ができます。
@@ -36,7 +36,7 @@ class _Backend extends HTMLElement{
         
         <service-section src="${biker}" color="info">
             <h1 class="title">
-                ShareBiker〜自転車シェアリングサイト〜
+                ShareBiker
             </h1>
             <h2 class="subtitle">
                 手持ちの自転車を気軽にシェアリングしよう。

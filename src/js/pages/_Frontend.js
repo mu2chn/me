@@ -20,7 +20,7 @@ class _Frontend extends HTMLElement{
         </default-section>
         <service-section src="${text}" color="light">
             <h1 class="title">
-                TimeText〜板書共有サイト〜
+                TimeText<br/>
             </h1>
             <h2 class="subtitle">
                 板書の整理、共有を一発で。
