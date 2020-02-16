@@ -4,7 +4,7 @@ class DefaultSection extends HTMLElement{
         this.innerHTML = `
         <section class="hero is-white is-medium">
             <div class="hero-body">
-                <div class="container has-text-centered">
+                <div class="container has-text-centered logo-font">
                     ${this.innerHTML}
                 </div>
             </div>

@@ -3,10 +3,10 @@ class FooterComponent extends HTMLElement{
         super();
         this.innerHTML = `
         <footer class="footer">
-            <div class="content has-text-centered">
+            <div class="content has-text-centered logo-font">
                 <p class="has-text-white">
                     face9363 &copy; 2020 All rights reserved.<br/>
-                    Hosting by Netlify.
+                    Hosting by github.io
                 </p>
             </div>
         </footer>`

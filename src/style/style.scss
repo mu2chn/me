@@ -1,6 +1,7 @@
 $footer-color: true;
 $footer-background-color: #111111;
 
+
 @import "~bulma/sass/utilities/all";
 @import "~bulma/sass/base/all";
 @import "~bulma/sass/layout/all";
@@ -11,18 +12,10 @@ $footer-background-color: #111111;
 @import "~bulma/sass/grid/columns";
 @import "~bulma/sass/components/tabs";
 
+
 a {
   color: white;
 }
-//.icon_style{
-//  color: lightgray;
-//}
-//.icon_svg{
-//  //margin-top: 10px;
-//  filter: grayscale(100%);
-//  opacity: 30%;
-//  width: 3em;
-//}
 section{
   figure{
     margin: auto;
@@ -31,3 +24,16 @@ section{
     line-height: 2;
   }
 }
+
+.center-hero {
+  @extend .hero;
+  background-size: cover;
+  background-position: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+
+.logo-font{
+  font-family: 'Tomorrow', sans-serif;
+}
+

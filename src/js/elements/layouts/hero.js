@@ -7,7 +7,7 @@ class HeroComponent extends HTMLElement{
         smoothscroll.polyfill();
 
         this.innerHTML = `
-        <section class="hero is-info is-fullheight">
+        <section class="center-hero is-dark is-fullheight logo-font">
             <!-- Hero head: will stick at the top -->
             <div class="hero-head">
                 <blue-header></blue-header>
@@ -15,7 +15,7 @@ class HeroComponent extends HTMLElement{
         
             <!-- Hero content: will be in the middle -->
             <div class="hero-body" >
-                <div class="container has-text-centered">
+                <div class="container has-text-centered ">
                     <h1 class="title">
                         Portfolio
                     </h1>
