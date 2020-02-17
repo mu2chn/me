@@ -31,17 +31,29 @@ section{
   background-position: center;
 }
 
-//@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
-//
-//.logo-font{
-//  font-family: 'Tomorrow', sans-serif;
-//}
-
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap');
 .all-fonts{
-
-
   font-family: 'M PLUS 1p', sans-serif;
+}
 
-
+.robot-wrap{
+  position: relative;
+}
+.robot{
+  position: absolute;
+  right: -200px;
+  top: -350px;
+  height: 700px;
+}
+.robot{
+  animation: robot 60s infinite linear ;
+}
+@media screen and (min-width: $tablet) {}
+@keyframes robot {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
 }

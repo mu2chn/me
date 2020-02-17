@@ -1,5 +1,6 @@
 import './header'
 import smoothscroll from "smoothscroll-polyfill";
+import robot from '../../../../static/svg/tire.svg'
 
 class HeroComponent extends HTMLElement{
     constructor() {
@@ -14,15 +15,18 @@ class HeroComponent extends HTMLElement{
             </div>
         
             <!-- Hero content: will be in the middle -->
-            <div class="hero-body" >
-                <div class="container has-text-centered ">
-                    <h1 class="title">
-                        Portfolio
-                    </h1>
-                    <h2 class="subtitle">
-                        by face9363
-                    </h2>
+            <div class="hero-body robot-wrap">
+                <div class="container has-text-centered">
+                    <div class="">
+                        <h1 class="title">
+                            Portfolio
+                        </h1>
+                        <h2 class="subtitle">
+                            by face9363
+                        </h2>
+                    </div>
                 </div>
+                <img src="${robot}" class="robot"/>
             </div>
         
             <!-- Hero footer: will stick at the bottom -->
