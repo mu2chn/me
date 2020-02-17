@@ -36,24 +36,27 @@ section{
   font-family: 'M PLUS 1p', sans-serif;
 }
 
-.robot-wrap{
-  position: relative;
-}
-.robot{
-  position: absolute;
-  right: -200px;
-  top: -350px;
-  height: 700px;
-}
-.robot{
-  animation: robot 60s infinite linear ;
-}
-@media screen and (min-width: $tablet) {}
-@keyframes robot {
-  0% {
-    transform:rotate(0deg);
-  }
-  100% {
-    transform:rotate(360deg);
-  }
-}
+//.robot-wrap{
+//  position: relative;
+//}
+//.robot {
+//  position: absolute;
+//  right: -200px;
+//  top: -350px;
+//  height: 700px;
+//}
+//body{
+//  overflow: hidden !important;
+//}
+//.robot{
+//  animation: robot 60s infinite linear ;
+//}
+//@media screen and (min-width: $tablet) {}
+//@keyframes robot {
+//  0% {
+//    transform:rotate(0deg);
+//  }
+//  100% {
+//    transform:rotate(360deg);
+//  }
+//}

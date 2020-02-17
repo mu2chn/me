@@ -1,6 +1,5 @@
 import './header'
 import smoothscroll from "smoothscroll-polyfill";
-import robot from '../../../../static/svg/tire.svg'
 
 class HeroComponent extends HTMLElement{
     constructor() {
@@ -26,7 +25,6 @@ class HeroComponent extends HTMLElement{
                         </h2>
                     </div>
                 </div>
-                <img src="${robot}" class="robot"/>
             </div>
         
             <!-- Hero footer: will stick at the bottom -->
