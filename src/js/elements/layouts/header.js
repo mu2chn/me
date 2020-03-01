@@ -20,10 +20,10 @@ class HeaderComponent extends HTMLElement{
                         <a class="navbar-item is-active" href="#">
                             Home
                         </a>
-                        <a class="navbar-item" href="https://coder.face9363.net">
-                            Blog <i class="fas fa-external-link-alt"></i>
-                        </a>
-                        <a class="navbar-item" href="https://github.com/face9363">
+<!--                        <a class="navbar-item" href="https://coder.face0u0.net">-->
+<!--                            Blog <i class="fas fa-external-link-alt"></i>-->
+<!--                        </a>-->
+                        <a class="navbar-item" href="https://github.com/face0u0">
                             github <i class="fas fa-external-link-alt"></i>
                         </a>
                     </div>
