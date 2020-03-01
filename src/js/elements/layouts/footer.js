@@ -5,7 +5,7 @@ class FooterComponent extends HTMLElement{
         <footer class="footer">
             <div class="content has-text-centered logo-font">
                 <p class="has-text-white">
-                    face9363 &copy; 2020 All rights reserved.<br/>
+                    face0u0 &copy; 2020 All rights reserved.<br/>
                     Hosting by github.io
                 </p>
             </div>
