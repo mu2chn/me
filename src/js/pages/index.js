@@ -35,7 +35,7 @@ class Index extends HTMLElement{
                 <default-section>
                     <h1 class="title">Contact</h1>
                     <h2 class="subtitle">
-                        <i class="far fa-envelope"></i> <a href="mailto:box@e.face9363.net">box@e.face9363.net</a>
+                        <i class="far fa-envelope"></i> <a href="mailto:box@e.face9363.net">box@e.face0u0.net</a>
                     </h2>
                 </default-section>
                 <blue-footer></blue-footer>

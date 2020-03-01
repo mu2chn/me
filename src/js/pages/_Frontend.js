@@ -26,8 +26,8 @@ class _Frontend extends HTMLElement{
                 板書の整理、共有を一発で。
             </h2>
             <div>
-                <a href="https://timetext.face9363.net"><i class="fas fa-external-link-alt fa-2x has-text-dark"></i></a>
-                <a href="https://github.com/face9363/TimeText"><i class="fab fa-github-alt fa-2x has-text-dark"></i></a>
+                <a href="https://timetext.face0u0.net"><i class="fas fa-external-link-alt fa-2x has-text-dark"></i></a>
+                <a href="https://github.com/face0u0/TimeText"><i class="fab fa-github-alt fa-2x has-text-dark"></i></a>
             </div>
         </service-section>
         `

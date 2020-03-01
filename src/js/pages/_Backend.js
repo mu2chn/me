@@ -29,8 +29,8 @@ class _Backend extends HTMLElement{
                 オンラインストレージ上の大学の定期試験の過去門をクローリング。簡単に一括検索ができます。
             </h2>
             <div>
-                <a href="https://engine.face9363.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
-                <a href="https://github.com/face9363/sharedrive"><i class="fab fa-github-alt fa-2x"></i></a>
+                <a href="https://engine.face0u0.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
+                <a href="https://github.com/face0u0/sharedrive"><i class="fab fa-github-alt fa-2x"></i></a>
             </div>
         </service-section>
         
@@ -43,7 +43,7 @@ class _Backend extends HTMLElement{
             </h2>
             <div>
                 <a href="https://kyotosharebike.com"><i class="fas fa-external-link-alt fa-2x"></i></a>
-                <a href="https://github.com/face9363/share_bike"><i class="fab fa-github-alt fa-2x"></i></a>
+                <a href="https://github.com/face0u0/share_bike"><i class="fab fa-github-alt fa-2x"></i></a>
             </div>
         </service-section>
         `

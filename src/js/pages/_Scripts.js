@@ -25,7 +25,7 @@ class _Scripts extends HTMLElement{
                 面倒なLaTeXをMarkDownライクに記述できます。
             </h2>
             <div>
-                <a href="https://github.com/face9363/md4latex"><i class="fab fa-github-alt fa-2x"></i></a>
+                <a href="https://github.com/face0u0/md4latex"><i class="fab fa-github-alt fa-2x"></i></a>
             </div>
         </service-section>
         `
