@@ -243,7 +243,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("class FooterComponent extends HTMLElement{\n    constructor() {\n        super();\n        this.innerHTML = `\n        <footer class=\"footer\">\n            <div class=\"content has-text-centered logo-font\">\n                <p class=\"has-text-white\">\n                    face9363 &copy; 2020 All rights reserved.<br/>\n                    Hosting by github.io\n                </p>\n            </div>\n        </footer>`\n    }\n}\n\ncustomElements.define('blue-footer', FooterComponent);\n\n\n//# sourceURL=webpack:///./src/js/elements/layouts/footer.js?");
+eval("class FooterComponent extends HTMLElement{\n    constructor() {\n        super();\n        this.innerHTML = `\n        <footer class=\"footer\">\n            <div class=\"content has-text-centered logo-font\">\n                <p class=\"has-text-white\">\n                    face0u0 &copy; 2020 All rights reserved.<br/>\n                    Hosting by github.io\n                </p>\n            </div>\n        </footer>`\n    }\n}\n\ncustomElements.define('blue-footer', FooterComponent);\n\n\n//# sourceURL=webpack:///./src/js/elements/layouts/footer.js?");
 
 /***/ }),
 

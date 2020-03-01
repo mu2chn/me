@@ -7,7 +7,7 @@ class HeaderComponent extends HTMLElement{
             <div class="container">
                 <div class="navbar-brand">
                     <a class="navbar-item">
-                        Face9363
+                        Face0u0
                     </a>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
                   <span aria-hidden="true"></span>
