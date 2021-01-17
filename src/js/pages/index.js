@@ -8,8 +8,6 @@ import '../elements/layouts/hero'
 
 import '../../style/style.scss';
 import {dom, library} from '@fortawesome/fontawesome-svg-core'
-import {faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons/faExternalLinkAlt'
-import {faGithubAlt} from "@fortawesome/free-brands-svg-icons/faGithubAlt";
 
 
 class Index extends HTMLElement{
