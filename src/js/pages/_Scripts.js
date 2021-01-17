@@ -43,7 +43,7 @@ class _Scripts extends HTMLElement{
             python
         </h4>
         <div>
-            <a href="https://github.com/face0u0/clipanda"><i class="fab fa-github-alt fa-2x"></i></a>
+            <a href="https://github.com/face0u0/clipanda"><i class="fab fa-github-alt has-text-dark fa-2x"></i></a>
         </div>
         </service-section>
         `
