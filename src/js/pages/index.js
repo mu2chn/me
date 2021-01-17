@@ -23,7 +23,7 @@ class Index extends HTMLElement{
                 <div class="columns is-multiline is-centered">
                     <h1 class="title column is-full">Introduction</h1>
                     <h2 class="subtitle column is-half">
-                        工学部情報学科の大学２回生です。主にWeb系をやります。サーバーサイドからフロントまで色々制作しております。以下に制作物を掲載しておりますのでよろしければご覧ください。
+                        工学部情報学科の大学3回生です。主にWeb系をやります。サーバーサイドからフロントまで色々制作しております。以下に制作物を掲載しておりますのでよろしければご覧ください。
                     </h2>
                 </div>
                 </default-section>
@@ -33,7 +33,7 @@ class Index extends HTMLElement{
                 <default-section>
                     <h1 class="title">Contact</h1>
                     <h2 class="subtitle">
-                        <i class="far fa-envelope"></i> <a href="mailto:box@e.face9363.net">box@e.face0u0.net</a>
+                        <i class="far fa-envelope"></i> <a href="mailto:me@face0u0.net">me@face0u0.net</a>
                     </h2>
                 </default-section>
                 <blue-footer></blue-footer>
