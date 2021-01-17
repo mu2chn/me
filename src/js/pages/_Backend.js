@@ -28,9 +28,12 @@ class _Backend extends HTMLElement{
             <h2 class="subtitle">
                 オンラインストレージ上の大学の定期試験の過去門をクローリング。簡単に一括検索ができます。
             </h2>
+            <h4 class="subtitle">
+                nodejs/mongoDB
+            </h4>
             <div>
                 <a href="https://engine.face0u0.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
-<!--                <a href="https://github.com/face0u0/sharedrive"><i class="fab fa-github-alt fa-2x"></i></a>-->
+                <a href="https://github.com/face0u0/sharedrive"><i class="fab fa-github-alt fa-2x"></i></a>
             </div>
         </service-section>
         
@@ -41,9 +44,11 @@ class _Backend extends HTMLElement{
             <h2 class="subtitle">
                 手持ちの自転車を気軽にシェアリングしよう。
             </h2>
+            <h4 class="subtitle">
+                ruby/mysql/Docker
+            </h4>
             <div>
-                <a href="https://sharebiker.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
-<!--                <a href="https://github.com/face0u0/share_bike"><i class="fab fa-github-alt fa-2x"></i></a>-->
+                <a href="https://sharebike.0uh.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
             </div>
         </service-section>
         `

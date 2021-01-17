@@ -1,6 +1,7 @@
 import '../elements/templates/serviceSection'
 import '../elements/templates/defaultSection'
 import md4tex from '../../../static/svg/md4latex_plane.svg'
+import clipanda from "../../../static/svg/clipanda.svg"
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faGithubAlt} from "@fortawesome/free-brands-svg-icons/faGithubAlt";
 
@@ -24,9 +25,26 @@ class _Scripts extends HTMLElement{
             <h2 class="subtitle">
                 面倒なLaTeXをMarkDownライクに記述できます。
             </h2>
+            <h4 class="subtitle">
+                java
+            </h4>
             <div>
                 <a href="https://github.com/face0u0/md4latex"><i class="fab fa-github-alt fa-2x"></i></a>
             </div>
+        </service-section>
+        <service-section src="${clipanda}" color="light">
+        <h1 class="title">
+            clipanda
+        </h1>
+        <h2 class="subtitle">
+            大学内サイバーラーニングスペースでのファイル一括ダウンロードなどを簡単に行うCLIツール。
+        </h2>
+        <h4 class="subtitle">
+            python
+        </h4>
+        <div>
+            <a href="https://github.com/face0u0/clipanda"><i class="fab fa-github-alt fa-2x"></i></a>
+        </div>
         </service-section>
         `
     }

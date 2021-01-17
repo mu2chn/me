@@ -23,11 +23,14 @@ class _Frontend extends HTMLElement{
                 TimeText<br/>
             </h1>
             <h2 class="subtitle">
-                板書の整理、共有を一発で。
+                板書の整理、共有を簡単に行えるようにするツールです。
             </h2>
+            <h4 class="subtitle">
+                Vuejs/firebase
+            </h4>
             <div>
                 <a href="https://timetext.face0u0.net"><i class="fas fa-external-link-alt fa-2x has-text-dark"></i></a>
-<!--                <a href="https://github.com/face0u0/TimeText"><i class="fab fa-github-alt fa-2x has-text-dark"></i></a>-->
+               <a href="https://github.com/face0u0/TimeText"><i class="fab fa-github-alt fa-2x has-text-dark"></i></a>
             </div>
         </service-section>
         `
