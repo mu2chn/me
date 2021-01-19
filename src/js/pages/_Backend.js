@@ -29,7 +29,7 @@ class _Backend extends HTMLElement{
                 オンラインストレージ上の大学の定期試験の過去門をクローリング。簡単に一括検索ができます。
             </h2>
             <h4 class="subtitle">
-                nodejs/mongoDB
+                nodejs・mongodb
             </h4>
             <div>
                 <a href="https://engine.face0u0.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
@@ -42,10 +42,10 @@ class _Backend extends HTMLElement{
                 ShareBiker
             </h1>
             <h2 class="subtitle">
-                手持ちの自転車を気軽にシェアリングしよう。
+                手持ちの自転車を気軽にシェアリングできます。
             </h2>
             <h4 class="subtitle">
-                ruby/mysql/Docker
+                ruby・paypal・docker・mysql                
             </h4>
             <div>
                 <a href="https://sharebike.0uh.net"><i class="fas fa-external-link-alt fa-2x"></i></a>

@@ -26,7 +26,7 @@ class _Frontend extends HTMLElement{
                 板書の整理、共有を簡単に行えるようにするツールです。
             </h2>
             <h4 class="subtitle">
-                Vuejs/firebase
+                Vuejs・firebase
             </h4>
             <div>
                 <a href="https://timetext.netlify.app/"><i class="fas fa-external-link-alt fa-2x has-text-dark"></i></a>
