@@ -2,6 +2,7 @@ import '../elements/templates/serviceSection'
 import '../elements/templates/defaultSection'
 import search from '../../../static/svg/searchdrive.svg'
 import biker from  '../../../static/svg/logo_plane.svg'
+import shabel from '../../../static/png/shabel.png'
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 import {faGithubAlt} from "@fortawesome/free-brands-svg-icons/faGithubAlt";
@@ -49,6 +50,20 @@ class _Backend extends HTMLElement{
             </h4>
             <div>
                 <a href="https://sharebike.0uh.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
+            </div>
+        </service-section>
+        <service-section src="${shabel}" color="light">
+            <h1 class="title">
+                Shabel
+            </h1>
+            <h2 class="subtitle">
+                Android向けチャットアプリです。４人チームで２ヶ月ほどかけて開発しました。
+            </h2>
+            <h4 class="subtitle">
+                springboot・kotlin・android・websocket                
+            </h4>
+            <div>
+                <a href="https://github.com/line-school2018summer/kyoto-a-api"><i class="fab fa-github-alt fa-2x"></i></a>
             </div>
         </service-section>
         `
