@@ -1,8 +1,8 @@
 import '../elements/templates/serviceSection'
 import '../elements/templates/defaultSection'
-import search from '../../../static/svg/searchdrive.svg'
-import biker from  '../../../static/svg/logo_plane.svg'
-import shabel from '../../../static/png/shabel.png'
+import search from '../../../assets/svg/searchdrive.svg'
+import biker from  '../../../assets/svg/logo_plane.svg'
+import shabel from '../../../assets/png/shabel.png'
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 import {faGithubAlt} from "@fortawesome/free-brands-svg-icons/faGithubAlt";

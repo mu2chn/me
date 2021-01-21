@@ -1,6 +1,6 @@
 import '../elements/templates/serviceSection'
 import '../elements/templates/defaultSection'
-import text from '../../../static/svg/timetext.svg'
+import text from '../../../assets/svg/timetext.svg'
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 import {faGithubAlt} from "@fortawesome/free-brands-svg-icons/faGithubAlt";

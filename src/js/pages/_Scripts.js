@@ -1,7 +1,7 @@
 import '../elements/templates/serviceSection'
 import '../elements/templates/defaultSection'
-import md4tex from '../../../static/svg/md4latex_plane.svg'
-import clipanda from "../../../static/svg/clipanda.svg"
+import md4tex from '../../../assets/svg/md4latex_plane.svg'
+import clipanda from "../../../assets/svg/clipanda.svg"
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faGithubAlt} from "@fortawesome/free-brands-svg-icons/faGithubAlt";
 

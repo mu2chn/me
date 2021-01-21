@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack -w",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production && cp static/* public/"
   },
-  "author": "face9363",
+  "author": "face0u0",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
