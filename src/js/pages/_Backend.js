@@ -33,8 +33,8 @@ class _Backend extends HTMLElement{
                 nodejs・mongodb
             </h4>
             <div>
-                <a href="https://engine.face0u0.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
-                <a href="https://github.com/face0u0/sharedrive"><i class="fab fa-github-alt fa-2x"></i></a>
+                <a href="https://engine.mu2chn.net"><i class="fas fa-external-link-alt fa-2x"></i></a>
+                <a href="https://github.com/mu2chn/sharedrive"><i class="fab fa-github-alt fa-2x"></i></a>
             </div>
         </service-section>
         

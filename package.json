@@ -8,7 +8,7 @@
     "dev": "webpack -w",
     "build": "webpack --mode production && cp static/* public/"
   },
-  "author": "face0u0",
+  "author": "mu2chn",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",

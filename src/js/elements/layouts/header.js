@@ -7,7 +7,7 @@ class HeaderComponent extends HTMLElement{
             <div class="container">
                 <div class="navbar-brand">
                     <a class="navbar-item">
-                        face0u0
+                        mu2chn
                     </a>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
                   <span aria-hidden="true"></span>
@@ -20,7 +20,7 @@ class HeaderComponent extends HTMLElement{
                         <a class="navbar-item is-active" href="#">
                             Home
                         </a>
-                        <a class="navbar-item" href="https://github.com/face0u0">
+                        <a class="navbar-item" href="https://github.com/mu2chn">
                             github <i class="fas fa-external-link-alt"></i>
                         </a>
                     </div>

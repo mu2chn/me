@@ -21,7 +21,7 @@ class HeroComponent extends HTMLElement{
                             Portfolio
                         </h1>
                         <h2 class="subtitle">
-                            by face0u0
+                            by mu2chn
                         </h2>
                     </div>
                 </div>

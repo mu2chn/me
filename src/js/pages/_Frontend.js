@@ -30,7 +30,7 @@ class _Frontend extends HTMLElement{
             </h4>
             <div>
                 <a href="https://timetext.netlify.app/"><i class="fas fa-external-link-alt fa-2x has-text-dark"></i></a>
-               <a href="https://github.com/face0u0/TimeText"><i class="fab fa-github-alt fa-2x has-text-dark"></i></a>
+               <a href="https://github.com/mu2chn/TimeText"><i class="fab fa-github-alt fa-2x has-text-dark"></i></a>
             </div>
         </service-section>
         `
