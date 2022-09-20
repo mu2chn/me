@@ -7,34 +7,52 @@
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
-    <title>-</title>
+    <title>mu2chn.net</title>
     <style>
         .--section {
-            margin: 2em 0;
+            margin: 3rem 0 5rem 0;
         }
+        .--container{
+            width: 90%;
+            margin: 0 auto;
+            max-width: 800px;
+          }
+        .--title {
+            padding: 3rem 0;
+            text-align: center;
+        }
+        body{
+            font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+        }
+
+        /* 箇条書きをハイフンに */
+        ul {
+            list-style-type: none;
+        }
+        ul li:before {
+            content: '-';
+            position: absolute;
+            margin-left: -20px;
+          }
     </style>
 </head>
 <body>
-<header class="navbar bg-dark p-2">
-    <section class="navbar-section">
-        <span class="navbar-brand mr-2">mu2chn</a>
-    </section>
-    <section class="navbar-section">
-        <a href="https://github.com/mu2chn" class="">Github</a>
-    </section>
-</header>
 
-<div class="hero bg-dark" style="padding: 6em;">
+<div class="hero bg-gray" style="padding: 10vh 0; text-align: center;">
     <div class="hero-body">
-        <h1>My Experience</h1>
-        <p>by mu2chn</p>
+        <h1>mu2chn.net</h1>
+        <ul>
+            <li><a href="https://github.com/mu2chn" class="">Github</a></li>
+        </ul>
+        <div style="margin-top: 5em;"><img src="static/obake.svg" width="100px"/></div>
     </div>
 </div>
 
-<div class="conteiner" style="padding: 3em 6em;">
+<div class="--container">
 
-<div class="columns --section">
-    <h3>Work experience</h3>    
+
+<div class="--section">
+    <h3 class="--title">work experience</h3>    
     <div class="timeline">
 
         <div class="timeline-item">
@@ -42,7 +60,7 @@
                 <a class="timeline-icon" href="#"></a>
             </div>
             <div class="timeline-content">
-                <h5>Recrit Co. - Backend engineer</h5>
+                <h5>Recruit Co. - Backend engineer</h5>
                 <span>October 2022 - November 2022 / Internship</span>
                 <ul>
                     <li>...</li>
@@ -120,8 +138,12 @@
     </div>
 </div>
 
-<div class="columns --section">
-    <h3>Contact</h3>
+<div class="--section">
+    <h3 class="--title">Contact</h3>
+    <p style="text-align: center;">
+        <i class="icon icon-mail"></i>
+        <u><a href="https://forms.gle/Xw8JxwkTx3mhJALm8">google form</a></u>
+    </p>
 </div>
 
 </div>  <!-- padding -->
