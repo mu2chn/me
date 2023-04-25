@@ -1,3 +1,0 @@
-import './js/pages/index'
-
-
